@@ -1,0 +1,48 @@
+$font-one: "Dancing Script",
+sans-serif;
+$font-two: "New Tegomin",
+sans-serif;
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+section {
+    height: 100vh;
+    img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: $font-one;
+    color: gold;
+    position: absolute;
+}
+
+.list {
+    position: absolute;
+}
+
+li {
+    display: inline-block;
+    padding-right: 20px;
+    font-family: $font-two;
+    font-size: 20px;
+    a {
+        text-decoration: none;
+        color: white;
+        transition: 1s;
+    }
+    a:hover {
+        color: grey;
+    }
+}
