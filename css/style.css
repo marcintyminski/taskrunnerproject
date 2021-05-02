@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.header {
+  height: 100vh;
+}
+
+.header img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
