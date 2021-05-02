@@ -1,18 +1,42 @@
-$font-one: "Dancing Script",
-sans-serif;
-$font-two: "New Tegomin",
-sans-serif;
-body {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.7;
-}
-
-.header {
-    height: 100vh;
-    img {
-        height: 100%;
-        width: 100%;
-        position: absolute;
-    }
-}
+        $font-one: "Dancing Script",
+        sans-serif;
+        $font-two: "New Tegomin",
+        sans-serif;
+        body {
+            margin: 0;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+        
+        .header {
+            height: 100vh;
+            img {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+            }
+        }
+        
+        .navbar {
+            color: gold;
+            font-family: $font-one;
+            .title {
+                justify-content: center;
+                display: flex;
+            }
+            .list {
+                display: flex;
+                justify-content: center;
+                li {
+                    padding-right: 20px;
+                    padding-top: 10px;
+                    font-family: $font-two;
+                    list-style: none;
+                    display: inline-block;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }

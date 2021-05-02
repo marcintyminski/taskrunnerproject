@@ -1,1 +1,1 @@
-body{margin:0;font-size:16px;line-height:1.7}.header{height:100vh}.header img{height:100%;width:100%;position:absolute}
+body{margin:0;font-size:16px;line-height:1.7}.header{height:100vh}.header img{height:100%;width:100%;position:absolute}.navbar{color:gold;font-family:"Dancing Script",sans-serif}.navbar .title{justify-content:center;display:flex}.navbar .list{display:flex;justify-content:center}.navbar .list li{padding-right:20px;padding-top:10px;font-family:"New Tegomin",sans-serif;list-style:none;display:inline-block}.navbar .list li a{text-decoration:none;color:white}
